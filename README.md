@@ -1,2 +1,6 @@
-# the-DJ-ONE
-Reply the most classic words of the master chief of the motorcycle party
+# 主席語錄機器人
+
+點左邊的 `語錄.js` 裡面有寫怎麼幫機器人加話 XD
+
+
+[粉絲團連結按我](https://www.facebook.com/%E5%81%B6%E7%9A%84%E4%B8%89%E8%89%B2%E5%A8%81%E9%A2%A8%E5%A5%BD%E5%B8%A5%E5%B8%A5-1883700498529240/) 
