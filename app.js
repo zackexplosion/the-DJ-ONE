@@ -23,6 +23,9 @@ const words = require('./語錄')
 
 'use strict';
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
+/** UPDATE YOUR VERIFY TOKEN **/
+const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
+;
 // Imports dependencies and set up http server
 const 
   request = require('request'),
@@ -78,8 +81,7 @@ app.post('/webhook', (req, res) => {
 // Accepts GET requests at the /webhook endpoint
 app.get('/webhook', (req, res) => {
   
-  /** UPDATE YOUR VERIFY TOKEN **/
-  const VERIFY_TOKEN = "wryyyyyyyyyyyy";
+
   
   // Parse params from the webhook verification request
   let mode = req.query['hub.mode'];
